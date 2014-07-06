@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.opinion.fsoft" version="0.0.1" xmlns:gap="http://phonegap.com/ns/1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Opinion Dashboard</name>
+    <description>
+        Tell us your opinion.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Tell us your opinion
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+
+    <preference name="Fullscreen" value="true" />
+    <gap:plugin name="com.phonegap.plugin.statusbar" />
+    <gap:config-file platform="ios" parent="UIStatusBarHidden">
+        <true/>
+    </gap:config-file>
+    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
+        <false/>
+    </gap:config-file>
+    <preference name="StatusBarOverlaysWebView" value="true" />
+
+    <icon src="resources/icons/Icon.png" />
+
+    <icon src="resources/icons/Icon.png" gap:platform="ios" width="57" height="57" />
+    <icon src="resources/icons/Icon~ipad.png" gap:platform="ios" width="72" height="72" />
+    <icon src="resources/icons/Icon@2x.png" gap:platform="ios" width="114" height="114" />
+
+    <icon src="resources/icons/Icon~ipad@2x.png" gap:platform="ios" width="114" height="114" />
+
+    <!-- For Android-->
+    <icon src="resources/icons/android/op-63.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="resources/icons/android/op-63.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="resources/icons/android/op-94.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="resources/icons/android/op-125.png" gap:platform="android" gap:density="xhdpi" />
+
+    <gap:splash src="resources/startup/ios/op-640x960.png" gap:platform="ios" width="640" height="960" />
+    <gap:splash src="resources/startup/ios/op-640x1136.png" gap:platform="ios" width="640" height="1136" />
+    <gap:splash src="resources/startup/ios/op-1024x748.png" gap:platform="ios" width="1024" height="748" />
+    <gap:splash src="resources/startup/ios/op-2048x1496.png" gap:platform="ios" width="2048" height="1496" />
+    <gap:splash src="resources/startup/ios/op-1536x2008.png" gap:platform="ios" width="1536" height="2008" />
+
+    <gap:splash src="resources/startup/android/op-480x800.png" gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="resources/startup/android/op-480x800.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="resources/startup/android/op-1080x1920.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="resources/startup/android/op-1080x1920.png" gap:platform="android" gap:density="xhdpi" />
+</widget>
